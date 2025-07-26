@@ -31,4 +31,10 @@ dhoom muvi storyline
 variable "location" {
   type        = string
   description = "The Azure region where the resource group will be created."
-}         
+}    
+
+
+
+ This Terraform configuration defines variables for creating an Azure Resource Group.
+ It allows you to specify the resource group name, location, and tags as input variables.
+ By using variables, you can easily reuse and customize your infrastructure deployments.
