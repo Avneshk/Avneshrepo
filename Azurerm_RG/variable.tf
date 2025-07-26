@@ -18,3 +18,17 @@ newvariable "RG_name" {
   type        = string
   description = "The name of the Azure Resource Group."
 }   
+
+
+
+variable "tags" {
+  type        = map(string)
+  description = "A map of tags to assign to the resource group."
+}
+
+
+dhoom muvi storyline
+variable "location" {
+  type        = string
+  description = "The Azure region where the resource group will be created."
+}         
